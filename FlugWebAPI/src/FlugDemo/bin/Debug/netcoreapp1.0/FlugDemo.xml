@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlugDemo</name>
+    </assembly>
+    <members>
+        <member name="M:FlugDemo.Api.FlugController.GetAll">
+            <summary>
+            Liefert sämtliche Flüge via GET api/flug
+            </summary>
+            <returns>Liste mit Flüge</returns>
+        </member>
+        <member name="T:FlugDemo.Models.Flug">
+            <summary>
+            Repräsentiert einen Flug
+            </summary>
+        </member>
+        <member name="P:FlugDemo.Models.Flug.Id">
+            <summary>
+            Id des Fluges
+            </summary>
+        </member>
+    </members>
+</doc>

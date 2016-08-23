@@ -1,0 +1,16 @@
+﻿<SwaggerApiProxySettings>
+  <EndPoints>
+    
+    <EndPoint>
+      <Id>SwaggerServer</Id>
+      <Url>http://localhost:8082/swagger/v1/swagger.json</Url>
+      <Namespace>SwaggerServer</Namespace>
+      <Suffix>WebProxy</Suffix>
+      <BaseProxyClass>Swagger.WebApiProxy.Template.BaseProxy</BaseProxyClass>
+      <ProxyConstructorSuffix>(Uri baseUrl) : base(baseUrl)</ProxyConstructorSuffix>
+      <ParseOperationIdForProxyName>false</ParseOperationIdForProxyName>
+      <AppendAsyncToMethodName>false</AppendAsyncToMethodName>
+    </EndPoint>
+    
+  </EndPoints>
+</SwaggerApiProxySettings>
